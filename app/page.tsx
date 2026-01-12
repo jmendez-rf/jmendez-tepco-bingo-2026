@@ -10,7 +10,7 @@ export default function BingoCard() {
     // Row 2
     ["Refactor legacy code", "Improve error handling", "Better API integration", "Responsive UI fixes", "Reduce technical debt"],
     // Row 3
-    ["Modern Angular patterns", "Improve state management", "Act on user feedback", "FREE SPACE", "Launch-ready UI/UX"],
+    ["Modern Angular patterns", "Improve state management", "Get AZ-900 Azure Fundamentals", "FREE SPACE", "Get AZ-204 Azure Developer"],
     // Row 4
     ["Improve testing practices", "Fix recurring issues", "Collaborate with QA", "Feature ownership", "Production readiness"],
     // Row 5
@@ -22,6 +22,8 @@ export default function BingoCard() {
     const newChecked = new Set(checkedSquares);
     if (newChecked.has(key)) {
       newChecked.delete(key);
+
+      
     } else {
       newChecked.add(key);
     }
